@@ -36,14 +36,23 @@
     padding: 20px;
   }
 
-  p {
+  p, a, li{
     font-family: 'Roboto', sans-serif;
+    font-display: light;
     font-weight: 300;
   }
 
-  a {
+  h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-display: medium;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  h2 {
+      font-family: 'Roboto', sans-serif;
+      font-display: regular;
+      font-weight: 400;
   }
   
   /* header and footer */
