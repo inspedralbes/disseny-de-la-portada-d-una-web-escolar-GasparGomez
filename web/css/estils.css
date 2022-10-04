@@ -71,3 +71,35 @@
   a:hover{
     background-color: aquamarine;
   }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .tarjeta1 {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    grid-template-columns: 3fr 3fr;
+  }
+  .tarjeta2 {
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    grid-template-columns: 3fr 3fr;
+  }
+  .tarjeta3 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2 / 5;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tarjeta4 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    grid-template-columns: 1fr 1fr;
+  }
